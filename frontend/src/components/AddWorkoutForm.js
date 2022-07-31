@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useWorkoutsContext } from '../hooks/useWorkoutsContext'
 
-const WorkoutForm = () => {
+const AddWorkoutForm = () => {
   const { dispatch } = useWorkoutsContext()
 
   const [title, setTitle] = useState('')
@@ -43,7 +43,7 @@ const WorkoutForm = () => {
     <form className="create" onSubmit={handleSubmit}> 
       <h3>Add a New Workout</h3>
 
-      <label>Excersize Title:</label>
+      <label>Exercise Title:</label>
       <input 
         type="text" 
         onChange={(e) => setTitle(e.target.value)} 
@@ -73,4 +73,4 @@ const WorkoutForm = () => {
   )
 }
 
-export default WorkoutForm
+export default AddWorkoutForm

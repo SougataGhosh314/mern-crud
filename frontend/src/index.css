@@ -13,10 +13,12 @@ body {
 }
 header {
   background: #fff;
+  height: 60px;
 }
 header .container {
   max-width: 1400px;
   margin: 0 auto;
+  height: 60px;
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -99,4 +101,12 @@ div.error {
 }
 input.error {
   border: 1px solid var(--error);
+}
+
+.workouts {
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+.selected {
+  border: 2px solid #a1a3a8;
 }
