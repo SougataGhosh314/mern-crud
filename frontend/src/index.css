@@ -110,3 +110,22 @@ input.error {
 .selected {
   border: 2px solid #a1a3a8;
 }
+
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* navbar */
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.block {
+  width: 100px;
+}
